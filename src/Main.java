@@ -30,7 +30,7 @@ public class Main {
     // Calcula el total de una compra en base a los productos y cantidades
     public static double calcularTotalCompra(List<String> productos, List<Double> precios, int[] cantidades) {
         double subtotal = calcularSubtotal(productos, precios, cantidades);
-        double descuento = aplicarDescuento(subtotal); // Error en descuento
+        double descuento = aplicarDescuento(subtotal);
         double totalConDescuento = subtotal - descuento;
 
         // Error lógico: no se aplica correctamente la función calcularImpuestos
