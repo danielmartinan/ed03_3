@@ -33,7 +33,6 @@ public class Main {
         double descuento = aplicarDescuento(subtotal);
         double totalConDescuento = subtotal - descuento;
 
-        // Error lógico: no se aplica correctamente la función calcularImpuestos
         double totalConImpuestos = calcularImpuestos(totalConDescuento);
         return totalConImpuestos;
     }
